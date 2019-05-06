@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "team": "warrios",
+        "image": "https://s22294.pcdn.co/wp-content/uploads/LogoPrimary_300x329.jpg"
+    },
+    {
+        "id": 2,
+        "team": "bucks",
+        "image": "https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/bucks/150501-logo-1968-1993.svg"
+    },
+    {
+        "id": 3,
+        "team": "bulls",
+        "image": "https://usatftw.files.wordpress.com/2016/05/bullslogo.png"
+    },
+    {
+        "id": 4,
+        "team": "wizards",
+        "image": "https://usatftw.files.wordpress.com/2016/05/5671_washington_wizards-primary-2016.png"
+    },
+    {
+        "id": 5,
+        "team": "jazz",
+        "image": "https://usatftw.files.wordpress.com/2016/05/download1.png"
+    },
+    {
+        "id": 6,
+        "team": "rockets",
+        "image": "https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-34-36-pm.jpg"
+    },
+    {
+        "id": 7,
+        "team": "mavs",
+        "image": "https://usatftw.files.wordpress.com/2016/04/screen-shot-2016-04-26-at-2-35-21-pm.jpg?w=964&h=1000"
+    },
+    {
+        "id": 8,
+        "team": "celtics",
+        "image": "https://usatftw.files.wordpress.com/2016/05/celtics-logos.png"
+    },
+    {
+        "id": 9,
+        "team": "t-wolves",
+        "image": "https://usatftw.files.wordpress.com/2016/05/minnesota_timberwolves-svg.png"
+    },
+    {
+        "id": 10,
+        "team": "hawks",
+        "image": "https://usatftw.files.wordpress.com/2016/05/primary.jpg"
+    },
+    {
+        "id": 11,
+        "team": "nuggets",
+        "image": "https://usatftw.files.wordpress.com/2016/04/denver_nuggets-svg.png?w=1000&h=704"
+    },
+    {
+        "id": 12,
+        "team": "OKC",
+        "image": "http://www.thelogomix.com/files/u2/okc.jpg"
+    }
+]
+
+
