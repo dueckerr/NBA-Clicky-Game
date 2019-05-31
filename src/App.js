@@ -27,7 +27,16 @@ class App extends Component {
     this.setState({ teams: logosShuffle });
   };
 
-
+  handleReset = () => {
+    this.setState({
+      teams,
+      clicked: [],
+      count: 0,
+      highscore: 0,
+      rightWrong: "",
+    });
+    this.renderImage()
+  }
   handleIncrement = () => {
     const newScore = this.state.count + 1;
     this.setState({
