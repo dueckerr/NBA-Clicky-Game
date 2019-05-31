@@ -32,7 +32,6 @@ class App extends Component {
       teams,
       clicked: [],
       count: 0,
-      highscore: 0,
       rightWrong: "",
     });
     this.renderImage()
@@ -61,11 +60,9 @@ class App extends Component {
   // handles the clicking of the logos
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
-      this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
-    } else {
-      this.handleReset();
-    }
+      this.handleIncrement();
+    } 
   };
 
 
