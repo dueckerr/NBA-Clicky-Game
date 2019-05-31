@@ -19,7 +19,6 @@ class App extends Component {
     clicked: [],
     count: 0,
     highscore: 0,
-    rightWrong: "",
   };
 
   handleShuffle = () => {
@@ -32,7 +31,7 @@ class App extends Component {
       teams,
       clicked: [],
       count: 0,
-      rightWrong: "",
+      highscore: this.state.highscore,
     });
     this.handleShuffle()
   }
@@ -40,13 +39,12 @@ class App extends Component {
     const newScore = this.state.count + 1;
     this.setState({
       count: newScore,
-      rightWrong: ""
     });
     if (newScore >= this.state.highscore) {
       this.setState({ highscore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+      this.handleReset();
     }
     this.handleShuffle();
   };
@@ -60,8 +58,8 @@ class App extends Component {
   // handles the clicking of the logos
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
-      this.setState({ clicked: this.state.clicked.concat(id) });
       this.handleIncrement();
+      this.setState({ clicked: this.state.clicked.concat(id) });
     } else {
       this.handleReset();
     }
