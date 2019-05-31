@@ -49,11 +49,6 @@ class App extends Component {
     this.handleShuffle();
   };
 
-  renderImage = () => {
-  // eslint-disable-next-line jsx-a11y/alt-text
-  return this.state.teams.map(team => <img src = {team.image} id = {team.team} onClick = {this.handleClick} />)  
-  }
-
 
   // handles the clicking of the logos
   handleClick = id => {
@@ -76,6 +71,7 @@ class App extends Component {
             key={team.id}
             team={team.team}
             image={team.image}
+            id = {team.id}
           />
         ))}
       </Wrapper>
