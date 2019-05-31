@@ -34,7 +34,7 @@ class App extends Component {
       count: 0,
       rightWrong: "",
     });
-    this.renderImage()
+    this.handleShuffle()
   }
   handleIncrement = () => {
     const newScore = this.state.count + 1;
@@ -61,9 +61,9 @@ class App extends Component {
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.setState({ clicked: this.state.clicked.concat(id) });
-      this.handleReset();
-    } else {
       this.handleIncrement();
+    } else {
+      this.handleReset();
     }
   };
 
